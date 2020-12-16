@@ -530,11 +530,11 @@
                   </a>
                 
                 
-                <h1 id="macos-catalina">macOS Catalina以降への対応について<a class="headerlink" href="#macos-catalina" title="Permanent link">&para;</a></h1>
+                <h1 id="macos-catalina">macOS Catalina以降への対応について</h1>
 <p>既に述べたとおり、macOS Catalina以降ではUSBイーサネットのうちECMモードが無効となっています。一方、Jetson nano/JetBotはECMモード以外にNCMモードも使用することが可能ですので、設定ファイルを書き換えてから再起動することでこれまで通りの利用が可能になります。</p>
-<h2 id="_1">作業手順について<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">作業手順について</h2>
 <p>作業手順は<a href="https://forums.developer.nvidia.com/t/ssh-into-jetson-nano-through-mac-os-catalina/83405">NVIDIA開発者フォーラムの記事</a>で解説されています。誤りと思われる部分を修正し、一部手順を追加したものを下記に日本語で掲載しておきます。</p>
-<h3 id="_2">作業手順（日本語訳 + グリーンノート加筆）<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<h3 id="_2">作業手順（日本語訳 + グリーンノート加筆）</h3>
 <ul>
 <li>macとJetBotをUSBケーブルで接続する</li>
 <li>JetBotのマイクロUSB端子とmacのUSB端子（必要に応じてアダプタ使用）を接続してください。</li>
@@ -564,7 +564,7 @@ jetbot- login: （ユーザー　jetbot / パスワード　jetbot でログイ�
       に変更</li>
 </ul>
 <p>これで再起動すればmacOS Catalina以降でもJetBotをUSB経由でネットワーク接続することが可能になります。</p>
-<h2 id="_3">追記<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_3">追記</h2>
 <p>上記の変更作業は必ずしもmacOS Catalinaそのもので実行する必要はありません。もしそれ以外の作業用PCを確保出来るのであれば、そのPCとJetBotをUSB経由でネットワーク接続すればSSHが使えますので、より作業が簡単になるかと思います。この辺はお使いの環境に合わせて進めてください。</p>
 <hr />
 <p>以上</p>

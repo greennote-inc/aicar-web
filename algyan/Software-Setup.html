@@ -664,9 +664,9 @@
                   </a>
                 
                 
-                <h1 id="algyan-jetbot">ALGYAN Jetbot ソフトウェアのセットアップ<a class="headerlink" href="#algyan-jetbot" title="Permanent link">&para;</a></h1>
+                <h1 id="algyan-jetbot">ALGYAN Jetbot ソフトウェアのセットアップ</h1>
 <p>ソフトウェアのセットアップ手順について説明します。セットアップは前半と後半に分かれており、前半はJetson nanoを車体シャーシに乗せる前に行います。これは、基本的な設定をできるだけ素の状態のJetson nanoで行うためです。</p>
-<h2 id="step-1-jetbotsd">Step 1 - JetbotイメージファイルをマイクロSDカードに書き込む<a class="headerlink" href="#step-1-jetbotsd" title="Permanent link">&para;</a></h2>
+<h2 id="step-1-jetbotsd">Step 1 - JetbotイメージファイルをマイクロSDカードに書き込む</h2>
 <p>ALGYANオリジナルJetbotで使用するマイクロSDカードは本家と同じものです。マイクロSDカードは最低32GB、できれば64GB以上の容量のものをお勧めします。低速のものでも動作すると思われますが、予算が許すかぎり高速なものを利用する方が動作が安定するかもしれません。</p>
 <ol>
 <li>
@@ -681,7 +681,7 @@
 <li><a href="https://www.balena.io/etcher/">Etcher</a>などを使って<code>jetbot_image_v0p3p0.zip</code>に含まれるイメージをマイクロSDカードに書き込む</li>
 <li>作業用PCからマイクロSDカードを取り出す</li>
 </ol>
-<h3 id="step-2-jetson-nano">Step 2 - Jetson Nanoを起動する<a class="headerlink" href="#step-2-jetson-nano" title="Permanent link">&para;</a></h3>
+<h3 id="step-2-jetson-nano">Step 2 - Jetson Nanoを起動する</h3>
 <ol>
 <li>
 <p>マイクロSDカードをJetson Nanoモジュールの下側にあるスロットに挿入する</p>
@@ -700,10 +700,10 @@
 <p>Jetson nanoの電源端子に製品付属の電源ケーブル（片方がUSB-A、反対側がDCプラグ）を接続し、反対側をUSBバッテリーに接続してください。接続が完了したらバッテリー横のボタンを押す（電源ON）</p>
 </li>
 </ol>
-<h3 id="step-3-jetson-nano">Step 3 - Jetson nanoの初期設定<a class="headerlink" href="#step-3-jetson-nano" title="Permanent link">&para;</a></h3>
+<h3 id="step-3-jetson-nano">Step 3 - Jetson nanoの初期設定</h3>
 <p>Jetson nanoはマイクロUSB端子にPCを接続することで、簡易的なネットワーク接続を行うことができます。PCからは固定アドレス 192.168.55.1 でJetson nanoにアクセスすることができます。</p>
 <hr />
-<h3 id="macos-catalina">macOS Catalina以降をお使いの方へ<a class="headerlink" href="#macos-catalina" title="Permanent link">&para;</a></h3>
+<h3 id="macos-catalina">macOS Catalina以降をお使いの方へ</h3>
 <p>macOS Catalina以降ではこの方法で接続することができません。</p>
 <ol>
 <li>DHCPが利用できる有線LANにMacとJetBotを両方接続し、OLED画面に表示されるIPアドレスを用いて作業を進める</li>
@@ -716,7 +716,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="_1">指導者の方へ<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<h3 id="_1">指導者の方へ</h3>
 <p>JetBotキットをセミナーや授業などで活用する際、作業用PCにmacOS Catalina以降が含まれていると大きな時間のロスとなる可能性があります。</p>
 <ol>
 <li>指導者側でいったんマイクロSDカードを作成した後、上記3.の作業を実施した後にコピーを作成し、作成済みSDカードとして配布する</li>
@@ -882,7 +882,7 @@ $ sudo shutdown -h now
 </li>
 </ol>
 <p>これで設定の前半は終了です。ハードウェアのセッティングに戻ってください。ハードウェアのセッティングが完了したら次の作業から再開します。</p>
-<h3 id="step-4-jetbot">Step 4 - ウェブブラウザでJetBotに接続<a class="headerlink" href="#step-4-jetbot" title="Permanent link">&para;</a></h3>
+<h3 id="step-4-jetbot">Step 4 - ウェブブラウザでJetBotに接続</h3>
 <ol>
 <li>バッテリー横のボタンを押す（電源ON）</li>
 <li>Jetbotが起動するのを待つ
@@ -892,7 +892,7 @@ $ sudo shutdown -h now
     &gt; ブラウザはChromeを使うことをお勧めします。Safariでは文字が正常に入手できない現象が起こることを確認しています。</li>
 <li>Jupiter Notebookのログイン画面がでるので、パスワード <code>jetbot</code> でログインする</li>
 </ol>
-<h3 id="step-5-">Step 5 - パワーモードの設定<a class="headerlink" href="#step-5-" title="Permanent link">&para;</a></h3>
+<h3 id="step-5-">Step 5 - パワーモードの設定</h3>
 <p>ALGYAN Jetbotで使用している電源系の供給能力には限りがあり、Jetson Nanoをフルパワーで動作させることはできません。パワーモードを <code>5W</code> に設定して電力消費を抑えます。</p>
 <ol>
 <li>
@@ -914,7 +914,7 @@ $ sudo shutdown -h now
 </code></pre></div>
 </li>
 </ol>
-<h2 id="_2">次のステップ<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="_2">次のステップ</h2>
 <p><a href="Examples.html">examples</a>に進んでください。</p>
                 
               
